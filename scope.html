@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <title>Belajar Javascript</title>
+</head>
+
+<body>
+        <div id="wrap"></div>
+        <script>
+                //scope di javascript
+                //global dan local
+
+                var text = "Kevin Hendra William" //global variabel
+
+                function printText() {
+                        //local
+                        var text2 = " Test"
+                        //global
+                        text3 = " Test"
+                }
+                document.getElementById("wrap").innerHTML = text;
+        </script>
+</body>
+
+</html>

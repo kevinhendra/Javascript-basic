@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <title>Belajar Javascript</title>
+</head>
+
+<body>
+        <div id="wrap"></div>
+        <script>
+                // //tipe data array
+                // //array dimulai dari indeks ke-0
+                // var kotak = ["Kevin", "Hendra", "William"]
+                // document.getElementById("wrap").innerHTML = kotak;
+                // var text = kotak[2];
+                // document.getElementById("wrap").innerHTML = text;
+
+                //sort, reverse, concat, lenght,join("separator");
+                // var kotak = ["Kevin", "Hendra", "William"]
+                // var kotak2 = ["Koko", "kaka"]
+
+                // var gabung = kotak.concat(kotak2);
+                // // document.getElementById("wrap").innerHTML = kotak.sort();
+                // document.getElementById("wrap").innerHTML = gabung.join(" | ");
+
+                //splice => add(mulai, dihapus?, isi), splice=>remove
+                //pop, push, shift(), unshift()
+                var kotak = ["Kevin", "Hendra", "William"]
+                var kotak2 = ["Koko", "kaka"]
+
+                // kotak.splice(2, 0, "Emmy"); // menambahkan data
+                // kotak.splice(2, 1)//menghapus data
+
+                //menghapus bagian akhir(pop), menaambah bagian akhir(push)
+                kotak.pop();
+                kotak.push("Emmy");
+                //menghapus bagian awal(shift), menambahkan bagian awal(unshift)
+                kotak.shift();
+                kotak.unshift("Abdullah");
+                document.getElementById("wrap").innerHTML = kotak;
+        </script>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <title>Belajar Javascript</title>
+</head>
+
+<body>
+        <div id="wrap"></div>
+        <script>
+                // //Fungsi
+
+                // //menuliskan fungsi
+                // function printText() {
+                //         alert("Selamat Datang");
+                //         document.getElementById("wrap").innerHTML = "Kevin Hendra";
+                // }
+
+                // //memanggil fungsi
+                // printText();
+
+                // //parameter pada fungsi
+                // function printText(nama, nama2) {
+                //         var text = nama + nama2
+                //         document.getElementById("wrap").innerHTML = text;
+                // }
+
+                // var nama = "Nama Lengkap : ";
+                // var nama2 = "Kevin Hendra William"
+                // printText(nama, nama2);
+
+
+                //return
+                function printText() {
+                        var a = "Kevin"
+                        var b = " Hendra"
+                        return a + b;
+                }
+                let text = printText();
+                document.getElementById("wrap").innerHTML = text;
+        </script>
+</body>
+
+</html>
